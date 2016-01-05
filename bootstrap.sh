@@ -47,6 +47,6 @@ function set_bash_aliases()
 apt_update
 install_docker_engine
 install_docker_compose
-#set_bash_aliases
+set_bash_aliases
 
 cd /vagrant/

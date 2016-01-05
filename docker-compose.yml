@@ -1,6 +1,6 @@
-nginx:
-  build: nginx
+symfony:
+  build: symfony
   volumes:
-   - ./nginx/website:/usr/share/nginx/html
+   - ./symfony/www:/app/www
   ports:
    - "8080:80"
